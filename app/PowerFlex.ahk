@@ -8,10 +8,10 @@
 ::-2::6951237
 ::-3::6980281 ; P2 Envirotainer. Problem att komma åt DEV/test.
 
-::-fel::Felanmälan: 
-::-inc::Incident: 
-::-bes::Beställning:
-::-ord::Order: 
+::-fel::Felanmälan - 
+::-inc::Incident - 
+::-bes::Beställning - 
+::-ord::Order -  
 ::-appr::Hej,{ENTER}{ENTER}Du har ett ärende att godkänna/neka i portalen.{ENTER}{ENTER}Vänliga hälsningar,
 ::-invg::Inväntar godkännande.
 ::-nej::Order avvisad.
@@ -36,8 +36,10 @@
 ::-sendpass::Ersätter användarens lösenord som skickas ut som SMS till .
 ::-sidebar::_____ ringer in och kan inte se P360 Sidebaren i Outlook.{ENTER}{ENTER}Fjärrar in och utför felsökning enligt dokumentation.
 ::-sms::@m3.solidpark.se
+::-newacc::Access tilldelad enligt beställning. 
 ::-c::certmgr.msc{ENTER}
 ::-cre::control /name Microsoft.CredentialManager{ENTER}
+::-ocw::outlook.exe /cleanviews{ENTER}
 ::-pin::Ping och mail.
 ::-spam::Släpper på det efterfrågare mejlet.
 ::-spamr::Släpper mail från spam-filter.
@@ -53,6 +55,7 @@
 ::-ebloc::Avsändare blockerad i Microsoft Defender och Darktrace. 
 ::-ebloc1::Avsändare blockerad i Microsoft Defender/Darktrace. 
 ::-ebloc2::The sender is blocked in both Microsoft Defender/Darktrace. 
+::-ter::Terminated as requested.
 
 ::-bort::Konto borttagen i AD och Azure.
 
@@ -67,5 +70,12 @@
 ::-änd3::Ändring i AD och Azure.
 ::-änd4::Ändring i AD och Exchange.
 ::-änd5::Ändring i Exchange.
+::-änd6::Ändring i P360.
+
+
+; NSP
+::-offC::Loggar av Citrix-session.
 
 ::-ivo::0107885000, ; customer-service
+
+
