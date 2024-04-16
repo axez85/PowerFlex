@@ -7,6 +7,7 @@
 ::-1::"Nya Officepaketet" ; Akuta tillfällliga händelser.  
 ::-2::6951237
 ::-3::6980281 ; P2 Envirotainer. Problem att komma åt DEV/test.
+::-4::6980281 ; P2 Envirotainer. Problem att komma åt VPN.
 
 ::-fel::Felanmälan - 
 ::-inc::Incident - 
@@ -21,6 +22,7 @@
 ::-newtoc::Ersätter fortiToken.
 ::-closecu::Beställare begär stängning av ärende.
 ::-con3::Vi har nått gränsen för antalet kontaktförsök. Vi tvingas därför nu stänga ärendet. Ni har 5 dagar på er att återkoppla om problemet kvarstår. 
+::-close::CSC-Close-SWE-Generisk
 ::-omb::Ändrar Ombud från Exchange. 
 
 ::-con3c::Stänger efter dålig återkoppling.
@@ -32,6 +34,8 @@
 ::-loc1::Mitt konto låst till Dator.
 ::-loc2::Upplåsning av konto.{ENTER}{ENTER}Användare bekräftar lösning.
 ::-loc3::Upplåsning av AD-konto.
+::-loc4::Upplåsning av konto i Cendot.
+
 ::-newpass::Ersätter lösenord i AD-konto.
 ::-sendpass::Ersätter användarens lösenord som skickas ut som SMS till .
 ::-sidebar::_____ ringer in och kan inte se P360 Sidebaren i Outlook.{ENTER}{ENTER}Fjärrar in och utför felsökning enligt dokumentation.
@@ -44,7 +48,7 @@
 ::-spam::Släpper på det efterfrågare mejlet.
 ::-spamr::Släpper mail från spam-filter.
 ::-spamb::Avsändare blockerad i spam-filter.
-::-sendtoken::Ersätter användarens token och skickar ut instruktioner på mail.{ENTER}Bekräftar lösning. 
+::-sendtoken::Ersätter användarens token och skickar ut instruktioner på mail.{ENTER}Bekräftar lösning.
 ::-flytt::Flyttar över information till annat ärende.
 ::-umfa::https://aka.ms/mfasetup
 
@@ -72,10 +76,7 @@
 ::-änd5::Ändring i Exchange.
 ::-änd6::Ändring i P360.
 
-
 ; NSP
 ::-offC::Loggar av Citrix-session.
 
 ::-ivo::0107885000, ; customer-service
-
-
