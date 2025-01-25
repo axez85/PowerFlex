@@ -84,10 +84,13 @@
 ; NSP
 ::-offC::Loggar av Citrix-session.
 
-::-ivo::0107885000, ; customer-service
+::-ivo::0107885000 ; customer-service
 
 ; Scanidc
 ::-ITSD::08-51735100 ; press 5
+::-grim::Grim time registration.
+;::-i::Trim("INTERFACE{LCtrl down}{v}{LCtrl up})"'"  ; + id to hotel 
+
 ::-tr::Issue with Planet terminal
 ::-td::We can not use a Planet terminal.
 ::-tr1::Unplugged terminal from power.
@@ -97,4 +100,13 @@
 ::-lcr::Unlocked account in AD, and confirmed by the user it's working. 
 
 ; 24/7 Support
-::-gen::Generell felsökning. 
+::-tm::Operations 24/7 morgonmöte
+::-gen::Generell felsökning.
+
+; NOC
+::-rd::Dagsrutin
+::-rk::Kvällsrutin
+::-rm::Månadsrutin
+::-se::Kontrollerat
+::-rutinECM::Script startad och skickar ut mail automatiskt enligt rutin.
+::-slv::The storage level is Ok.
