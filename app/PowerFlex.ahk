@@ -10,10 +10,12 @@
 ::-4::6980281 ; P2 Envirotainer. Problem att komma åt VPN.
 ::-5::24/7 Support ; Kommentar 
 
-::-fel::Felanmälan - 
-::-inc::Incident - 
-::-bes::Beställning - 
-::-ord::Order -  
+::-fel::Felanmälan: ; förlåldrar och vi går över till incident även på svenska. 
+::-inc::Incident: 
+::-bes::Beställning: 
+::-ord::Order: 
+::-fra::Fråga: 
+::-que::Question: 
 ::-appr::Hej,{ENTER}{ENTER}Du har ett ärende att godkänna/neka i portalen.{ENTER}{ENTER}Vänliga hälsningar,
 ::-invg::Inväntar godkännande.
 ::-nej::Order avvisad.
@@ -31,7 +33,7 @@
 ::-for1::Konto förlängt enligt beställning. 
 ::-for2::Förlängt konto i AD. 
 ::-frab::Frågor om beställning.
-::-fra::Frågor om status.
+::-fras::Frågor om status.
 ::-loc1::Mitt konto låst till Dator.
 ::-loc2::Upplåsning av konto.{ENTER}{ENTER}Användare bekräftar lösning.
 ::-loc3::Upplåsning av AD-konto.
@@ -43,7 +45,7 @@
 ::-sms::@m3.solidpark.se
 ::-nyacc::Access tilldelad enligt beställning. 
 ::-c::certmgr.msc{ENTER}
-::-cre::control /name Microsoft.CredentialManager{ENTER}
+::-cre::control /name Microsoft.CredentialManager{ENTER} ; Autentiseringshanteraren (på svenska)
 ::-ntw::ncpa.cpl{ENTER} ;Network in Windows.
 ::-kon::appwiz.cpl{ENTER} ;Cointrollpanel
 ::-ocw::outlook.exe /cleanviews{ENTER}
@@ -55,9 +57,6 @@
 ::-sendtoken::Ersätter användarens token och skickar ut instruktioner på mail.{ENTER}Bekräftar lösning.
 ::-flytt::Flyttar över information till annat ärende.
 ::-umfa::https://aka.ms/mfasetup
-
-; Send Pass via Outlook
-;!2::Send ^a, {Del}
 
 ; Envirotainer
 ::-newacc::Access assigned as requested.
@@ -95,8 +94,8 @@
 ::-td::We can not use a Planet terminal.
 ::-tr1::Unplugged terminal from power.
 
-::-lc1::Account is locked
-::-lcd::My account is locked, and I cannot log in on the Computer. 
+::-lc1::The account is locked
+::-lcd::My account is locked, and I can't log in to the Computer. 
 ::-lcr::Unlocked account in AD, and confirmed by the user it's working. 
 
 ; 24/7 Support
@@ -110,3 +109,16 @@
 ::-se::Kontrollerat
 ::-rutinECM::Script startad och skickar ut mail automatiskt enligt rutin.
 ::-slv::The storage level is Ok.
+::-l1::Larm Ok
+::-l2::Ingen åtgärd - värde inom gräns
+::-l1s::Service is restored 
+
+
+; Strawberry
+::-gmfa::https://g.co/kgs/wPhACZR
+::-gmfa1::Ansluter via Goole desktop, öppnar Chrome söker fram dokumentation och länk för ställa min 2-stegs verifiering via SMS.
+::-sosba::I did recommend calling back when SOS is available
+
+; SJ
+::-konis::Kontrollerar konto i ISIM.
+::-konad::Kontrollerar konto i AD.
